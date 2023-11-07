@@ -15,7 +15,9 @@ To implement Matrix summation with 2D grids and blocks.
   9.Reset the GPU device
   
 ## Program:
-Float Matrix Addition
+
+### Float Matrix Addition
+~~~
 #include "../common/common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -186,7 +188,9 @@ int main(int argc, char **argv)
 
     return (0);
 }
-Integer Matrix Addition
+~~~
+### Integer Matrix Addition
+~~~
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -357,8 +361,10 @@ int main(int argc, char **argv)
 
     return (0);
 }
-Output:
-image
+~~~
+## Output:
+![image](https://github.com/Dhanushpraboo/PCA-Matrix-summation-with-a-2D-grid-and-2D-blocks.-Adapt-it-to-integer-matrix-addition.-/assets/94426323/5f65eb42-dd30-4c1f-ba9d-3384919f62ab)
 
-Result:
+
+## Result:
 Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
